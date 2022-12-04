@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Remaking Y Noodles",
+    "description": "Helping a local restaurant re-design their website",
+    "tags": [
+      "web design",
+      "prototyping",
+      "figma",
+      "html",
+      "css",
+      "javascript"
+    ],
+    "image": "images/responsive-redesign.png",
+    "url": "/redesign"
+  },
+  {
+    "title": "Moonshot",
+    "description": "Creating an interface for Moonshot, a start up that empowers young athlete by connecting them with investors",
+    "tags": [
+      "prototyping",
+      "figma"
+    ],
+    "image": "images/iterative.png",
+    "url": "https://dumbpenguin988.github.io/responsive-design/"
+  },
+  {
+    "title": "How to use a Functional Trainer",
+    "description": "Examining functional trainers as an interface with personas and storyboards",
+    "tags": [
+      "personas",
+      "storyboarding"
+    ],
+    "image": "images/functional-trainer.png",
+    "url": "https://dumbpenguin988.github.io/personas-and-storyboarding/"
+  },
+  {
+    "title": "WasteNet",
+    "description": "Automating waste classification with deep neural network",
+    "tags": [
+      "deep learning",
+      "computer vision",
+      "python",
+      "tensorflow",
+      "Google Cloud"
+    ],
+    "image": "images/wastenet.png",
+    "url": "https://devpost.com/software/vastum-photographers"
+  },
+  {
+    "title": "Hotpot @Microsoft",
+    "description": "intelligent email filter + customer question dashboard for the Microsoft Engineering System Team",
+    "tags": [
+      "full-stack",
+      "C#",
+      "Graph API",
+      "typescript",
+      "react"
+    ],
+    "image": "images/hotpot.png",
+    "url": ""
+  }
+]
