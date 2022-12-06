@@ -12,6 +12,7 @@ import duolingo_logo from "./images/duolingo-logo.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedin, faInstagram, faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope, faAnglesDown, faAnglesRight, faAnglesLeft} from '@fortawesome/free-solid-svg-icons'
+import { HashLink } from 'react-router-hash-link';
 
 
 
@@ -93,9 +94,9 @@ function Home() {
         </div>
         
         <div className="view-projects">
-          <a href="#projects">
+          <HashLink to="#projects">
             <p><FontAwesomeIcon icon={faAnglesDown}/> VIEW MY WORKS!</p>
-          </a>
+          </HashLink>
         </div>
       </section>
 

@@ -1,5 +1,6 @@
 import '../Home.css';
 import { useNavigate } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function NavBar(){
 
@@ -23,7 +24,7 @@ export default function NavBar(){
       <div className="nav-item-group" id="logo" onClick={()=>navigate("/")}>PENGUIN DUMBIE</div>
       <div className="nav-item-group">
         <div className="nav-item">Resume</div>
-        <a href="#projects"><div className="nav-item">Works</div></a>
+        <HashLink to="#projects"><div className="nav-item">Works</div></HashLink>
         <div className="nav-item" onClick={scrollRight}>About</div>
       </div>
     </nav>
