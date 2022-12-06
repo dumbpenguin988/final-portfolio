@@ -9,21 +9,19 @@ function Personas(){
       <NavBar/>
       <div className="portfolio-page">
       <section>
-      <div class="container">
-        <div class="d-sm-flex align-items-center justify-content-between">
+      <div className="titles">
+        <div>
           <div>
-            <h1>How to use a <span class="text-warning"> FUNCTIONAL TRAINER</span></h1>
-            <p class="lead my-4">
+            <h1>How to use a <span className="text-warning"> FUNCTIONAL TRAINER</span></h1>
+            <p>
               and to not be the awkward guy in the gym among the muscle mamas and papas.
             </p>
           </div>
-          <img class="img-fluid" src="img/showcase.svg"alt=""/>
         </div>
       </div>
     </section>
 
-    <section id="introduction" class="p-5 bg-primary text-light">
-      <div class="container">
+    <section id="introduction">
         <p>
           If you are a fitness newbie and go to the gym for your very first workout session, it is very likely
           that you are immediately overwhelmed at the first glance of the miscellany of wierdly-shaped pieces of
@@ -34,7 +32,6 @@ function Personas(){
           This project delves into the design of a FUNCTIONAl TRAINER, a common type of equipment in the gym. How does it work?
           Is it intuitive to learn? How does it compare to other training facilities of similar purposes? Is it safe to use?
         </p>
-      </div>
     </section>
 
     <section id="trainer" class="p-5">

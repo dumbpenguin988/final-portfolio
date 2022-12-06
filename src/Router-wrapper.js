@@ -8,6 +8,7 @@ export default function RouterWrapper(){
   return (
     <div>
       <Router>
+        <App/>
         <Routes>
           <Route path="/" element={<App />}/>
           <Route path="/redesign" element={<Redesign />}/>
