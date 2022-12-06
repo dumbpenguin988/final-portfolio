@@ -7,7 +7,7 @@ export default function ProjectItem({image, title, description, tags, url}) {
 
   return (
       <div className="project-item">
-      <Link to={url}>
+      {/* <Link to={url}> */}
         <div className="project-item-img">
           <img src={image} alt=""></img>
         </div>
@@ -16,7 +16,7 @@ export default function ProjectItem({image, title, description, tags, url}) {
           <div className="description">{description}</div>
           <div className="tags">{tags.map((tag) => <div className="tag"><p>{tag}</p></div>)}</div>
         </div>
-      </Link>
+      {/* </Link> */}
       </div>
       
   )

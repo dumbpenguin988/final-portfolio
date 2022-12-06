@@ -4,6 +4,7 @@ import "./Portfolio-page.css"
 
 import functional_trainer from "../images/functional-trainer-sketch.jpg";
 import main_body from "../images/IMG_3150.jpg"
+import attachments from "../images/functional-trainer-attachments.png"
 
 function Personas(){
 
@@ -75,7 +76,7 @@ function Personas(){
                     </li>
                   </ul>
                 </div>
-            <div class="col-md">
+            <div class="img-container">
               <img src={main_body} class="img-fluid" alt="" width="500" height="600"/>
             </div>
           </div>
@@ -94,6 +95,9 @@ function Personas(){
               <li>The <b>ankle cuff</b>: to be cuffed on either of the ankles.</li>
             </ul>
           </div>
+          <div class="img-container">
+              <img src={attachments} class="img-fluid" alt="" width="500" height="600"/>
+            </div>
           </div>
         </div>
     </section>
@@ -119,135 +123,7 @@ function Personas(){
         </p>
       </div>
       <div class="container">
-        <div class="accordion accordion-flush" id="questions">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#question-one"
-              >
-              Is the first time that you use the functional trainer? If not, how long have you been using it?
-              </button>
-            </h2>
-            <div
-              id="question-one"
-              class="accordion-collapse collapse"
-              data-bs-parent="#questions"
-            >
-              <div class="accordion-body text-dark">
-                A: Yes!
-                B: has just started working out in the gym about 3 months and has used the functional trainer for ten-ish times.  
-                C: has been working out in the gym for more than 3 years and almost always uses the functional trainer.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#question-two"
-              >
-              How does a first-time user navigate the functional trainer? What is their guess of its function at the first glance?
-              Will they figure out how it works without any source of guidance? 
-              </button>
-            </h2>
-            <div
-              id="question-two"
-              class="accordion-collapse collapse"
-              data-bs-parent="#questions"
-            >
-              <div class="accordion-body text-dark">
-                A: First notices the yellow buttons with "+" and "-" signs, and starts pressing them, which awakens the display.
-                Notices the pulley, pulls out the bolt, and slides the pulley up and down. Sees the instruction texts on the display, 
-                but is bugged by the length of it. Then sets the resistance down and pulls from the pulley holding the hook without any attachments. 
-                B & C: both indicates that they learned to use the equipment from a coach or from watching instruction videos on the internet.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#question-three"
-              >
-                Which part of the body are they working out with the functional trainer? 
-                Do they adjust the pulley/resistance? Which attachment do they use?
-                What is the motion?
-              </button>
-            </h2>
-            <div
-              id="question-three"
-              class="accordion-collapse collapse"
-              data-bs-parent="#questions"
-            >
-              <div class="accordion-body text-dark">
-                B: is working out buttocks by back kicking with one leg at a time using the ankle cuff. Prior to starting, adjusts pulley 
-                down to the lowest level. 
-                C: is working out the triceps. Prepares the workout by sliding the pulley to around 3/4 height of the pole and attaching the 
-                handle to the hook. Stands facing the side with both feet immediately next to the bottom of the pole. Grabs the support of the display
-                with the hand closer to the wall, and pulls from the handle with the other hands.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#question-four"
-              >
-                Is there any difficulty that the users encounter learning to use the functional trainer or during their workout?
-              </button>
-            </h2>
-            <div
-              id="question-four"s
-              class="accordion-collapse collapse"
-              data-bs-parent="#questions"
-            >
-              <div class="accordion-body text-dark">
-                A: feels that the display is unintuitive to read with no units for resistance and too much information written in small font and no visual insrtuctions. 
-                B: feels that the pulley is difficult to move. It takes a lot of effort to pull the bolt out away from the pole to avoid
-                friction between the bolt and the pole and it is especially hard when the pulley gets up high.
-                C: feels that it is sometimes difficult to find the attachments needed because they are scattered around in the gym. 
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#question-five"
-              >
-              To work out this part of body, is there another piece of facility in the gym that serve the same purposes?
-              Which one do they use more and why?
-              </button>
-            </h2>
-            <div
-              id="question-five"
-              class="accordion-collapse collapse"
-              data-bs-parent="#questions"
-            >
-              <div class="accordion-body text-dark">
-                B: also does various forms of squatting with dumbbells to work out buttocks, but uses the functional trainer more
-                because the back-kicking with resistance is effective not only on the buttocks but also on the back of the legs. 
-                It also protects knees compared to doing squatting.
-                C: also works out by doing weight-lifting, as frequently as using the functional trainer. Weight-lifting works out the entire
-                upper body while functional trainer is better at targeting specific group of muscles. Comments that the functional trainer also 
-                has the advantage of being safe, as doing weight-lifting always entails the danger of dropping the heavy dumbbells.
-              </div> 
-            </div>
-          </div>
-        </div>
+        
         <div class="container">
           <h3 class="text-warning">Key Observations:</h3>
           <div>

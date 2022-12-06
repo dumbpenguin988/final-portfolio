@@ -40,7 +40,7 @@ function Home() {
   }
 
   return (
-      <div className="App">
+      <div className="Home">
       <section className='welcome'>
         <NavBar></NavBar>
         <div className='horizontal-wrapper' id="horizontal-wrapper">
@@ -106,9 +106,7 @@ function Home() {
         }
       </section>
       <Footer></Footer>
-    </div>
-
-    
+    </div>    
   );
 }
 
