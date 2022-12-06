@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/final-portfolio/static/css/main.353ce370.css",
-    "main.js": "/final-portfolio/static/js/main.e2bbc697.js",
+    "main.js": "/final-portfolio/static/js/main.e50c4554.js",
     "static/media/IMG_3150.jpg": "/final-portfolio/static/media/IMG_3150.d05bd4184af1026f4416.jpg",
     "static/media/hifi.001.png": "/final-portfolio/static/media/hifi.001.c754ba03b2d5b9de5953.png",
     "static/media/hifi.004.png": "/final-portfolio/static/media/hifi.004.19b5a05b0fae011f37ce.png",
@@ -30,10 +30,10 @@
     "static/media/duolingo-logo.png": "/final-portfolio/static/media/duolingo-logo.963049318343ed87b40e.png",
     "index.html": "/final-portfolio/index.html",
     "main.353ce370.css.map": "/final-portfolio/static/css/main.353ce370.css.map",
-    "main.e2bbc697.js.map": "/final-portfolio/static/js/main.e2bbc697.js.map"
+    "main.e50c4554.js.map": "/final-portfolio/static/js/main.e50c4554.js.map"
   },
   "entrypoints": [
     "static/css/main.353ce370.css",
-    "static/js/main.e2bbc697.js"
+    "static/js/main.e50c4554.js"
   ]
 }
