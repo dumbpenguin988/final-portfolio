@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/final-portfolio/static/css/main.bff94f5d.css",
-    "main.js": "/final-portfolio/static/js/main.25d513cc.js",
+    "main.css": "/final-portfolio/static/css/main.353ce370.css",
+    "main.js": "/final-portfolio/static/js/main.fa332408.js",
+    "static/media/IMG_3150.jpg": "/final-portfolio/static/media/IMG_3150.d05bd4184af1026f4416.jpg",
     "static/media/hifi.001.png": "/final-portfolio/static/media/hifi.001.c754ba03b2d5b9de5953.png",
     "static/media/hifi.004.png": "/final-portfolio/static/media/hifi.004.19b5a05b0fae011f37ce.png",
     "static/media/ynoodle-problems-annotated003.jpeg": "/final-portfolio/static/media/ynoodle-problems-annotated003.bba6062492173f7b05e9.jpeg",
@@ -22,15 +23,16 @@
     "static/media/lowfi.png": "/final-portfolio/static/media/lowfi.2c608e0264448a66564b.png",
     "static/media/lofi2.png": "/final-portfolio/static/media/lofi2.8299358a5252b11ed024.png",
     "static/media/guide.png": "/final-portfolio/static/media/guide.d26052b7b1ae22c050f7.png",
+    "static/media/functional-trainer-sketch.jpg": "/final-portfolio/static/media/functional-trainer-sketch.1b712400fa61b984e092.jpg",
     "static/media/lofi1.png": "/final-portfolio/static/media/lofi1.ea170e216a76ccadf748.png",
     "static/media/penguin-logo.png": "/final-portfolio/static/media/penguin-logo.928e5778c68fe8c1b5ef.png",
     "static/media/duolingo-logo.png": "/final-portfolio/static/media/duolingo-logo.963049318343ed87b40e.png",
     "index.html": "/final-portfolio/index.html",
-    "main.bff94f5d.css.map": "/final-portfolio/static/css/main.bff94f5d.css.map",
-    "main.25d513cc.js.map": "/final-portfolio/static/js/main.25d513cc.js.map"
+    "main.353ce370.css.map": "/final-portfolio/static/css/main.353ce370.css.map",
+    "main.fa332408.js.map": "/final-portfolio/static/js/main.fa332408.js.map"
   },
   "entrypoints": [
-    "static/css/main.bff94f5d.css",
-    "static/js/main.25d513cc.js"
+    "static/css/main.353ce370.css",
+    "static/js/main.fa332408.js"
   ]
 }
