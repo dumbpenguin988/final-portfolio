@@ -2,6 +2,9 @@ import NavBar from "../components/Navbar.js"
 import Footer from "../components/Footer.js"
 import "./Portfolio-page.css"
 
+import functional_trainer from "../images/functional-trainer-sketch.jpg";
+import main_body from "../images/IMG_3150.jpg"
+
 function Personas(){
 
   return (
@@ -13,16 +16,14 @@ function Personas(){
         <div>
           <div>
             <h1>How to use a <span className="text-warning"> FUNCTIONAL TRAINER</span></h1>
-            <p>
-              and to not be the awkward guy in the gym among the muscle mamas and papas.
-            </p>
+            <h2>Examining functional trainers as an interface with personas and storyboards</h2>
           </div>
         </div>
       </div>
     </section>
 
     <section id="introduction">
-        <p>
+        <p className="introduction">
           If you are a fitness newbie and go to the gym for your very first workout session, it is very likely
           that you are immediately overwhelmed at the first glance of the miscellany of wierdly-shaped pieces of
           machinery. The gym is filled with loud music, the smell of sweats, and muscular men and build women playing
@@ -36,10 +37,10 @@ function Personas(){
 
     <section id="trainer" class="p-5">
       <div>
-        <h2 class="text-center">What is a <span class="text-warning">FUNCTIONAL TRAINER</span>?</h2>
+        <h2 class="text-center">What is a FUNCTIONAL TRAINER?</h2>
       </div>
       <div class="container">
-        <p class="lead">
+        <p>
           A functional trainer is a versatile piece of gym equipment that people use for functional training, i.e., working out specific parts 
           of their muscles. 
         </p>
@@ -48,16 +49,12 @@ function Personas(){
           Nelson fitness center of Brown University. However different two functional trainers might seem, their essential composition 
           remain consistent: main body and attachments. 
         </p>
-        <img src="img/functional-trainer-sketch.jpg" class="img-fluid" alt="" />
+        <img src={functional_trainer} class="img-fluid" alt="" />
       </div>
-    </section>
-    <section class="p-5">
-        <div class="container">
-          <div class="row align-items-center justify-content-between">
-            <div class="col-md">
-              <div class="card bg-secondary text-light">
-                <div class="card-body">
-                  <h3 class="card-title mb-3 text-center"><u>Main Body</u></h3>
+      <div class="container">
+          <div>
+          <div class="card-body">
+              <h3 class="card-title mb-3 text-center"><u>Main Body</u></h3>
                   <p class="card-text">
                     The main body of a functional trainer consists of the following:
                   </p>
@@ -78,37 +75,29 @@ function Personas(){
                     </li>
                   </ul>
                 </div>
-              </div>
-            </div>
             <div class="col-md">
-              <img src="img/IMG_3150.jpg" class="img-fluid" alt="" width="500" height="600"/>
+              <img src={main_body} class="img-fluid" alt="" width="500" height="600"/>
             </div>
           </div>
           <div class="row align-items-center justify-content-between">
-            <div class="col-md">
-              <img src="img/functional-trainer-attachments.png" class="img-fluid" alt="" width="500" height="600"/>
-            </div>
-            <div class="col-md">
-              <div class="card bg-secondary text-light">
-                <div class="card-body">
-                  <h3 class="card-title mb-3 text-center"><u>Attachments</u></h3>
-                  <p class="card-text">
-                    The attachments are what the user grabs when they pull against the resistance. There are various types of attachments, each designed
-                    different motions and different parts of the human body.
-                  </p>
-                  <ul>
-                    <li>The <b>T-bar</b>: a T-shaped iron bar. The user holds onto the two ends with both hands.</li>
-                    <li>The <b>handle</b>: a short, plastic bar whose ends are attached by strips. The user holds onto the bar with one hand.</li>
-                    <li>The <b>rope</b>: a segment of thick rope with two semi-spheres attached at both ends. The user holds onto the ends of the rope with both hands which rest against the semi-spheres.
-                    The angle between the directions where the hands pull is flexible.</li>
-                    <li>The <b>ankle cuff</b>: to be cuffed on either of the ankles.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+          <div class="card-body">
+            <h3 class="card-title mb-3 text-center"><u>Attachments</u></h3>
+            <p class="card-text">
+              The attachments are what the user grabs when they pull against the resistance. There are various types of attachments, each designed
+              different motions and different parts of the human body.
+            </p>
+            <ul>
+              <li>The <b>T-bar</b>: a T-shaped iron bar. The user holds onto the two ends with both hands.</li>
+              <li>The <b>handle</b>: a short, plastic bar whose ends are attached by strips. The user holds onto the bar with one hand.</li>
+              <li>The <b>rope</b>: a segment of thick rope with two semi-spheres attached at both ends. The user holds onto the ends of the rope with both hands which rest against the semi-spheres.
+              The angle between the directions where the hands pull is flexible.</li>
+              <li>The <b>ankle cuff</b>: to be cuffed on either of the ankles.</li>
+            </ul>
+          </div>
           </div>
         </div>
     </section>
+        
     <section class="p-5">
       <div class="container">
         <p>The essential way that the functional trainer works is the following:

@@ -1,4 +1,4 @@
-import '../App.css';
+import '../Home.css';
 import { useNavigate } from "react-router-dom";
 
 export default function NavBar(){
@@ -22,9 +22,9 @@ export default function NavBar(){
     <nav>
       <div className="nav-item-group" id="logo" onClick={()=>navigate("/")}>PENGUIN DUMBIE</div>
       <div className="nav-item-group">
-        <a><div className="nav-item">Resume</div></a>
-        <a href="#projects"><div className="nav-item" onClick={()=>navigate("/")}>Works</div></a>
-        <a><div className="nav-item" onClick={scrollRight}>About</div></a>
+        <div className="nav-item">Resume</div>
+        <a href="#projects"><div className="nav-item">Works</div></a>
+        <div className="nav-item" onClick={scrollRight}>About</div>
       </div>
     </nav>
   )

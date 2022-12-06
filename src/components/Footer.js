@@ -1,15 +1,15 @@
-import '../App.css';
+import '../Home.css';
 import penguin_logo from "../images/penguin-logo.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedin, faInstagram, faGithub} from '@fortawesome/free-brands-svg-icons'
-import {faEnvelope, faAnglesDown, faAnglesRight, faAnglesLeft} from '@fortawesome/free-solid-svg-icons'
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 export default function Footer(){
 
   return (
     <section className="footer">
         <div className="bye">
-          <img src={penguin_logo}></img>
+          <img src={penguin_logo} alt="penguin-logo"></img>
           <div>
             <h1>Hey!</h1>
             <h2>Shoot me a message!</h2>
