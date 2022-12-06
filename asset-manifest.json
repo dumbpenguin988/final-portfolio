@@ -1,38 +1,17 @@
 {
   "files": {
-    "main.css": "/final-portfolio/static/css/main.353ce370.css",
-    "main.js": "/final-portfolio/static/js/main.fa332408.js",
-    "static/media/IMG_3150.jpg": "/final-portfolio/static/media/IMG_3150.d05bd4184af1026f4416.jpg",
-    "static/media/hifi.001.png": "/final-portfolio/static/media/hifi.001.c754ba03b2d5b9de5953.png",
-    "static/media/hifi.004.png": "/final-portfolio/static/media/hifi.004.19b5a05b0fae011f37ce.png",
-    "static/media/ynoodle-problems-annotated003.jpeg": "/final-portfolio/static/media/ynoodle-problems-annotated003.bba6062492173f7b05e9.jpeg",
-    "static/media/hifi.002.png": "/final-portfolio/static/media/hifi.002.8d1c73fed578da288e0f.png",
-    "static/media/hifi_3.gif": "/final-portfolio/static/media/hifi_3.d6e5ecfa97b00a6a92de.gif",
-    "static/media/hifi.003.png": "/final-portfolio/static/media/hifi.003.bf62e15b0e59245ee2a9.png",
-    "static/media/webaim.png": "/final-portfolio/static/media/webaim.6eaaa29380cdd99f3b72.png",
+    "main.css": "/final-portfolio/static/css/main.f946a832.css",
+    "main.js": "/final-portfolio/static/js/main.339ec5af.js",
     "static/media/penguin-logo-about.png": "/final-portfolio/static/media/penguin-logo-about.13783a68f0bccac0d70b.png",
-    "static/media/hifi.005.png": "/final-portfolio/static/media/hifi.005.de2aa71a06e3bc9f4dba.png",
-    "static/media/cover.png": "/final-portfolio/static/media/cover.0b3eaa95d2030cf0dbc0.png",
-    "static/media/ynoodle-problems-annotated001.jpeg": "/final-portfolio/static/media/ynoodle-problems-annotated001.a88c9aadd60cf228a544.jpeg",
-    "static/media/ynoodle-problems-annotated002.jpeg": "/final-portfolio/static/media/ynoodle-problems-annotated002.6d123d92d3193ac7b3d6.jpeg",
-    "static/media/sketches.png": "/final-portfolio/static/media/sketches.dc55a87289fd23fa1525.png",
-    "static/media/ynoodle-problems-annotated004.jpeg": "/final-portfolio/static/media/ynoodle-problems-annotated004.0993ae9923bff744c874.jpeg",
-    "static/media/highfi_2.png": "/final-portfolio/static/media/highfi_2.18e2884876820fb842fa.png",
-    "static/media/highfi_1.png": "/final-portfolio/static/media/highfi_1.7361499d1b3113536183.png",
     "static/media/brown-logo.png": "/final-portfolio/static/media/brown-logo.c0257267b2c42de55f3e.png",
-    "static/media/lowfi.png": "/final-portfolio/static/media/lowfi.2c608e0264448a66564b.png",
-    "static/media/lofi2.png": "/final-portfolio/static/media/lofi2.8299358a5252b11ed024.png",
-    "static/media/guide.png": "/final-portfolio/static/media/guide.d26052b7b1ae22c050f7.png",
-    "static/media/functional-trainer-sketch.jpg": "/final-portfolio/static/media/functional-trainer-sketch.1b712400fa61b984e092.jpg",
-    "static/media/lofi1.png": "/final-portfolio/static/media/lofi1.ea170e216a76ccadf748.png",
     "static/media/penguin-logo.png": "/final-portfolio/static/media/penguin-logo.928e5778c68fe8c1b5ef.png",
     "static/media/duolingo-logo.png": "/final-portfolio/static/media/duolingo-logo.963049318343ed87b40e.png",
     "index.html": "/final-portfolio/index.html",
-    "main.353ce370.css.map": "/final-portfolio/static/css/main.353ce370.css.map",
-    "main.fa332408.js.map": "/final-portfolio/static/js/main.fa332408.js.map"
+    "main.f946a832.css.map": "/final-portfolio/static/css/main.f946a832.css.map",
+    "main.339ec5af.js.map": "/final-portfolio/static/js/main.339ec5af.js.map"
   },
   "entrypoints": [
-    "static/css/main.353ce370.css",
-    "static/js/main.fa332408.js"
+    "static/css/main.f946a832.css",
+    "static/js/main.339ec5af.js"
   ]
 }
