@@ -42,7 +42,7 @@ function Home() {
   return (
       <div className="Home">
       <section className='welcome'>
-        <NavBar></NavBar>
+        <NavBar/>
         <div className='horizontal-wrapper' id="horizontal-wrapper">
           <div className='card'>
             <div className="card-logo">
