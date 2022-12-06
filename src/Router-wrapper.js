@@ -8,12 +8,11 @@ export default function RouterWrapper(){
   return (
     <div>
       <Router>
-
         <Routes>
-          <Route index element={<App />}/>
-          <Route path="/redesign" element={<Redesign />}/>
-          <Route path="/iterative" element={<Iterative />}/>
-          <Route path="/personas" element={<Personas />}/>
+            <Route index element={<App />}/>
+            <Route path="/redesign" element={<Redesign />}/>
+            <Route path="/iterative" element={<Iterative />}/>
+            <Route path="/personas" element={<Personas />}/>
         </Routes>
       </Router>
     </div>
