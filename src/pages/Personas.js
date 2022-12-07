@@ -5,6 +5,11 @@ import "./Portfolio-page.css"
 import functional_trainer from "../images/functional-trainer-sketch.jpg";
 import main_body from "../images/IMG_3150.jpg"
 import attachments from "../images/functional-trainer-attachments.png"
+import persona1 from "../images/Personas-and-storyboards-2.jpg"
+import persona2 from "../images/Personas-and-storyboards-3.jpg"
+import storyboard1 from "../images/Personas-and-storyboards-4.jpg"
+import storyboard2 from "../images/Personas-and-storyboards-5.jpg"
+import storyboard3 from "../images/Personas-and-storyboards-6.jpg"
 
 function Personas(){
 
@@ -23,8 +28,8 @@ function Personas(){
       </div>
     </section>
 
-    <section id="introduction">
-        <p className="introduction">
+    <section className="introduction" id="introduction">
+        <p>
           If you are a fitness newbie and go to the gym for your very first workout session, it is very likely
           that you are immediately overwhelmed at the first glance of the miscellany of wierdly-shaped pieces of
           machinery. The gym is filled with loud music, the smell of sweats, and muscular men and build women playing
@@ -117,12 +122,78 @@ function Personas(){
         <p>
           From the description above, we can agree that the functional trainer is quite complex with multiple parts. 
           How, then, do different users interact with it? 
-          In this study of the functional trainer, I have raised the following questions for users. To investigate into 
-          this question, we want to consider a diversity of users coming from different background.
+          In this study of the functional trainer, I have raised the following questions for users. 
           I observed and interviewed three people who are respectively a first-time user (A), a casual gym-goer (B), and a frequent user (C).
         </p>
       </div>
       <div class="container">
+        <ul>
+          <li>Is the first time that you use the functional trainer? If not, how long have you been using it?</li>
+          <ul>
+            <li>A: Yes!</li>
+            <li>B: has just started working out in the gym about 3 months and has used the functional trainer for ten-ish times.</li>
+            <li>C: has been working out in the gym for more than 3 years and almost always uses the functional trainer.</li>
+          </ul>
+        </ul>
+        <ul>
+          <li>
+              How does a first-time user navigate the functional trainer? What is their guess of its function at the first glance?
+              Will they figure out how it works without any source of guidance? 
+              </li>
+          <ul>
+            <li>
+              A: First notices the yellow buttons with "+" and "-" signs, and starts pressing them, which awakens the display. Notices the pulley, pulls out the bolt, and slides the pulley up and down. Sees the instruction texts on the display, but is bugged by the length of it. Then sets the resistance down and pulls from the pulley holding the hook without any attachments.
+            </li>
+            <li>
+              B & C: both indicates that they learned to use the equipment from a coach or from watching instruction videos on the internet.
+            </li>
+          </ul>
+        </ul>
+        <ul>
+          <li>
+              Which part of the body are they working out with the functional trainer? 
+              Do they adjust the pulley/resistance? Which attachment do they use?
+              What is the motion?
+          </li>
+          <ul>
+            <li>
+            B: is working out buttocks by back kicking with one leg at a time using the ankle cuff. Prior to starting, adjusts pulley down to the lowest level.
+            </li>
+            <li>
+            C: is working out the triceps. Prepares the workout by sliding the pulley to around 3/4 height of the pole and attaching the handle to the hook. Stands facing the side with both feet immediately next to the bottom of the pole. Grabs the support of the display with the hand closer to the wall, and pulls from the handle with the other hands.
+            </li>
+          </ul>
+        </ul>
+        <ul>
+          <li>
+          Is there any difficulty that the users encounter learning to use the functional trainer or during their workout?
+          </li>
+          <ul>
+            <li>
+            A: feels that the display is unintuitive to read with no units for resistance and too much information written in small font and no visual insrtuctions.
+            </li>
+            <li>
+            B: feels that the pulley is difficult to move. It takes a lot of effort to pull the bolt out away from the pole to avoid friction between the bolt and the pole and it is especially hard when the pulley gets up high.
+            </li>
+            <li>
+            C: feels that it is sometimes difficult to find the attachments needed because they are scattered around in the gym.
+            </li>
+          </ul>
+        </ul>
+        <ul>
+          <li>
+          To work out this part of body, is there another piece of facility in the gym that serve the same purposes?
+              Which one do they use more and why?
+          </li>
+          <ul>
+            <li>
+            B: also does various forms of squatting with dumbbells to work out buttocks, but uses the functional trainer more because the back-kicking with resistance is effective not only on the buttocks but also on the back of the legs. It also protects knees compared to doing squatting.
+            </li>
+            <li>
+            C: also works out by doing weight-lifting, as frequently as using the functional trainer. Weight-lifting works out the entire upper body while functional trainer is better at targeting specific group of muscles. Comments that the functional trainer also has the advantage of being safe, as doing weight-lifting always entails the danger of dropping the heavy dumbbells.
+            </li>
+          </ul>
+        </ul>
         
         <div class="container">
           <h3 class="text-warning">Key Observations:</h3>
@@ -142,21 +213,19 @@ function Personas(){
                 They indicate that the weight stack serves as a strong visual cue for the purpose of the equipment. The weight stacks also has clear numerical values with units (lbs)
                 labeled so they specifically know how much resistance they are working out against. </li>
             </ul>
-            <img src="img/xmark-fitness-xm-7626-functional-trainer.webp" class="img-fluid" alt="" width="400" height="600"/>
           </div>
         </div>
       </div>
     </section>
 
     <section id="personas" class="p-5">
-      <div class="container">
+      <div>
         <h2 class="text-center">Personas</h2>
-        <p class="lead text-center">
+        <p>
           From the observations above, I have designed two personas -- Amanda and Cooper.
         </p>
         <div>
-          <img src="img/Personas-and-storyboards-2.jpg" class="img-fluid" alt="" />
-          <div class="card bg-warning">
+          <div>
               <div class="card-body">
               <p>
                 Amanda is a female university student who has been regularly working out in the gym before, but she is unfamiliar with this new gym she is going to now
@@ -171,11 +240,13 @@ function Personas(){
               </ol>
               </div>
           </div>
+          <div className="img-container">
+            <img src={persona1} class="img-fluid" alt="" />
+          </div>
         </div>
         <div>
-          <img src="img/Personas-and-storyboards-3.jpg" class="img-fluid" alt="" />
-          <div class="card bg-primary">
-              <div class="card-body text-white">
+          <div>
+              <div>
               <p>
                 Cooper is an athlete preparing for an upcoming shot put final.
               </p>
@@ -186,17 +257,19 @@ function Personas(){
               </ol>
               </div>
           </div>
-          
+          <div className="img-container">
+            <img src={persona2} class="img-fluid" alt="" />
+          </div>
         </div>
       </div>
     </section>
 
     <section id="storyboards" class="p-5 bg-dark text-light">
       <h2>Storyboard</h2>
-      <div class="container">
-        <img src="img/Personas-and-storyboards-4.jpg" class="img-fluid" alt="" />
-        <img src="img/Personas-and-storyboards-5.jpg" class="img-fluid" alt="" />
-        <img src="img/Personas-and-storyboards-6.jpg" class="img-fluid" alt="" />
+      <div class="img-container">
+        <img src={storyboard1} class="img-fluid" alt="" />
+        <img src={storyboard2} class="img-fluid" alt="" />
+        <img src={storyboard3} class="img-fluid" alt="" />
       </div>
     </section>
       </div>

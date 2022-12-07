@@ -1,31 +1,16 @@
 import '../Home.css';
-import { useNavigate } from "react-router-dom";
+// import { Link, useNavigate, useLocation } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
 export default function NavBar(){
 
-  const navigate = useNavigate();
-
-  function scrollRight() {
-
-    if (document.getElementById("horizontal-wrapper") == null){
-      navigate("/");
-    }
-    const outsider = document.getElementById("horizontal-wrapper");
-    const distance = window.innerWidth;
-    outsider.scrollBy({
-      left: distance,
-      behavior: 'smooth'
-    });
-  }
-
   return (
     <nav>
-      <div className="nav-item-group" id="logo" onClick={()=>navigate("/")}>PENGUIN DUMBIE</div>
+      <HashLink to="/#welcome"><div className="nav-item-group" id="logo">PENGUIN DUMBIE</div></HashLink>
       <div className="nav-item-group">
         <div className="nav-item">Resume</div>
-        <HashLink to="#projects"><div className="nav-item">Works</div></HashLink>
-        <div className="nav-item" onClick={scrollRight}>About</div>
+        <HashLink to="/#projects"><div className="nav-item">Works</div></HashLink>
+        <HashLink to="/#about" scroll={el => el.scrollIntoView({ behavior: 'smooth'})}><div className="nav-item">About</div></HashLink>
       </div>
     </nav>
   )

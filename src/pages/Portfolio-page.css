@@ -43,6 +43,11 @@
   margin: 10px;
 }
 
+.portfolio-page ol{
+  line-height: 150%;
+  margin: 10px;
+}
+
 .text-warning{
   color: #B24022;
   font-weight: 800;
@@ -77,4 +82,19 @@
 .introduction{
   color:#4B4C81;
   font-style: italic;
+  border-width: 3px;
+  border-color: #4B4C81;
+  border-radius: 5px;
+}
+
+#wastenet .img-fluid{
+  width:40%;
+  height:auto;
+}
+
+.wasteblock {
+  width: 20%;
+  height: auto;
+  max-height:fit-content;
+  margin: 5px;
 }

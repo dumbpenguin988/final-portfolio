@@ -15,7 +15,6 @@ import {faEnvelope, faAnglesDown, faAnglesRight, faAnglesLeft} from '@fortawesom
 import { HashLink } from 'react-router-hash-link';
 
 
-
 projectData.forEach((item) => {
   item.image = process.env.PUBLIC_URL + "/" + item.image;
 });
@@ -42,8 +41,8 @@ function Home() {
 
   return (
       <div className="Home">
-      <section className='welcome'>
-        <NavBar/>
+      <NavBar/>
+      <section className='welcome' id="welcome">
         <div className='horizontal-wrapper' id="horizontal-wrapper">
           <div className='card'>
             <div className="card-logo">
@@ -87,7 +86,7 @@ function Home() {
                 Also as a music composer who loves telling stories with notes, I am a fervent believer in enpowering people with technology to make their stories heard.</p>
               <p>
                 Outside of technology, I am also a composer who have scored for 10+ films, written songs for musicals, and many concert compositions. 
-                I love journaling and blogging, and a nooby who just got into photography.
+                I love journaling and blogging, and I am a nooby who just got into photography.
               </p>
             </div>
           </div>
