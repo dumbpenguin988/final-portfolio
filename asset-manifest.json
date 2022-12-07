@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/final-portfolio/static/css/main.353ce370.css",
-    "main.js": "/final-portfolio/static/js/main.58fa0e49.js",
+    "main.css": "/final-portfolio/static/css/main.75baddfa.css",
+    "main.js": "/final-portfolio/static/js/main.aa37f2a6.js",
     "static/media/IMG_3150.jpg": "/final-portfolio/static/media/IMG_3150.d05bd4184af1026f4416.jpg",
     "static/media/hifi.001.png": "/final-portfolio/static/media/hifi.001.c754ba03b2d5b9de5953.png",
     "static/media/hifi.004.png": "/final-portfolio/static/media/hifi.004.19b5a05b0fae011f37ce.png",
@@ -20,20 +20,32 @@
     "static/media/highfi_2.png": "/final-portfolio/static/media/highfi_2.18e2884876820fb842fa.png",
     "static/media/highfi_1.png": "/final-portfolio/static/media/highfi_1.7361499d1b3113536183.png",
     "static/media/brown-logo.png": "/final-portfolio/static/media/brown-logo.c0257267b2c42de55f3e.png",
+    "static/media/Personas-and-storyboards-4.jpg": "/final-portfolio/static/media/Personas-and-storyboards-4.e0640d764eff73a41c9f.jpg",
+    "static/media/Personas-and-storyboards-2.jpg": "/final-portfolio/static/media/Personas-and-storyboards-2.bb3b2b648d58ca74ea2a.jpg",
+    "static/media/Personas-and-storyboards-5.jpg": "/final-portfolio/static/media/Personas-and-storyboards-5.8fd1ffee88a3acbf70f8.jpg",
+    "static/media/Personas-and-storyboards-6.jpg": "/final-portfolio/static/media/Personas-and-storyboards-6.91c4fc80b5248b0485e5.jpg",
     "static/media/lowfi.png": "/final-portfolio/static/media/lowfi.2c608e0264448a66564b.png",
+    "static/media/Personas-and-storyboards-3.jpg": "/final-portfolio/static/media/Personas-and-storyboards-3.36fa23be127db37b10ed.jpg",
     "static/media/lofi2.png": "/final-portfolio/static/media/lofi2.8299358a5252b11ed024.png",
     "static/media/guide.png": "/final-portfolio/static/media/guide.d26052b7b1ae22c050f7.png",
     "static/media/functional-trainer-sketch.jpg": "/final-portfolio/static/media/functional-trainer-sketch.1b712400fa61b984e092.jpg",
     "static/media/lofi1.png": "/final-portfolio/static/media/lofi1.ea170e216a76ccadf748.png",
     "static/media/penguin-logo.png": "/final-portfolio/static/media/penguin-logo.928e5778c68fe8c1b5ef.png",
+    "static/media/wastenet-fig2.png": "/final-portfolio/static/media/wastenet-fig2.16468fa689ded3d25c0f.png",
+    "static/media/wastenet-fig4.png": "/final-portfolio/static/media/wastenet-fig4.5a6c7caf366c9b85a0c4.png",
     "static/media/functional-trainer-attachments.png": "/final-portfolio/static/media/functional-trainer-attachments.1298716aec887d2bfc38.png",
+    "static/media/wastenet-fig7.png": "/final-portfolio/static/media/wastenet-fig7.48244756a11ddf941be4.png",
     "static/media/duolingo-logo.png": "/final-portfolio/static/media/duolingo-logo.963049318343ed87b40e.png",
+    "static/media/wastenet-fig6.png": "/final-portfolio/static/media/wastenet-fig6.21a49b3d309e2bf8c7c6.png",
+    "static/media/wastenet-fig5.png": "/final-portfolio/static/media/wastenet-fig5.c5df3c8b98da380f46ba.png",
+    "static/media/wastenet-fig3.png": "/final-portfolio/static/media/wastenet-fig3.0f3ba474c0ccd6276484.png",
+    "static/media/wastenet-fig1.png": "/final-portfolio/static/media/wastenet-fig1.5c02dd5d4bc34a66c8aa.png",
     "index.html": "/final-portfolio/index.html",
-    "main.353ce370.css.map": "/final-portfolio/static/css/main.353ce370.css.map",
-    "main.58fa0e49.js.map": "/final-portfolio/static/js/main.58fa0e49.js.map"
+    "main.75baddfa.css.map": "/final-portfolio/static/css/main.75baddfa.css.map",
+    "main.aa37f2a6.js.map": "/final-portfolio/static/js/main.aa37f2a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.353ce370.css",
-    "static/js/main.58fa0e49.js"
+    "static/css/main.75baddfa.css",
+    "static/js/main.aa37f2a6.js"
   ]
 }
