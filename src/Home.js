@@ -50,11 +50,8 @@ function Home() {
             </div>
             <div className='card-text'>
               <h1>Hey! </h1>
-              <div className="view-about">
+              <div>
                 <h2>This is <span id="logo">PENGUIN DUMBIE</span></h2>
-                <div className='view-projects' onClick={scrollRight}>
-                  <p className="read-more">READ MORE ABOUT ME! <FontAwesomeIcon icon={faAnglesRight}/> </p>
-                </div>
               </div>
               
               <div className='descriptions'>
@@ -71,9 +68,12 @@ function Home() {
                 <FontAwesomeIcon className="social-icon" icon={faEnvelope} />
               </div>
             </div>
+            <div className='view-about' onClick={scrollRight}>
+                <p className="read-more">READ MORE ABOUT ME! <FontAwesomeIcon icon={faAnglesRight}/> </p>
+              </div>
           </div>
           <div className='card' id="about">
-            <div className="view-projects" onClick={scrollLeft}>
+            <div className="view-about" onClick={scrollLeft}>
               <p><FontAwesomeIcon icon={faAnglesLeft}/></p>
             </div>
             <div className='card-logo'>

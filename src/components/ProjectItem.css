@@ -19,20 +19,21 @@
   background-color: #F7F4FF;
 }
 
-.project-item:active{
+/* .project-item:active{
   box-shadow: 5px 10px #888888;
-}
+} */
 
 .project-item-img{
   display: flex;
   justify-content: center;
   height: 25vh;
+  width: auto;
   margin: 5%
 }
 
 img{
   width: auto;
-  max-height: 400px;
+  /* max-height: 400px; */
 }
 
 .project-item-text{
@@ -74,4 +75,20 @@ img{
 }
 a{
   text-decoration: none;
+}
+
+
+@media(max-width: 1200px){
+  .project-item{
+    min-width: 400px;
+  }
+  .project-item-img{
+    height:auto;
+    /* max-height: 25vh; */
+    width: auto;
+  }
+  img{
+    width: 60%;
+    height: auto;
+  }
 }
