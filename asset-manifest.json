@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/final-portfolio/static/css/main.d6ada7cf.css",
-    "main.js": "/final-portfolio/static/js/main.3c862f32.js",
+    "main.css": "/final-portfolio/static/css/main.f7cfb2dd.css",
+    "main.js": "/final-portfolio/static/js/main.fccd9c56.js",
     "static/media/IMG_3150.jpg": "/final-portfolio/static/media/IMG_3150.d05bd4184af1026f4416.jpg",
     "static/media/hifi.001.png": "/final-portfolio/static/media/hifi.001.c754ba03b2d5b9de5953.png",
     "static/media/hifi.004.png": "/final-portfolio/static/media/hifi.004.19b5a05b0fae011f37ce.png",
@@ -41,11 +41,11 @@
     "static/media/wastenet-fig3.png": "/final-portfolio/static/media/wastenet-fig3.0f3ba474c0ccd6276484.png",
     "static/media/wastenet-fig1.png": "/final-portfolio/static/media/wastenet-fig1.5c02dd5d4bc34a66c8aa.png",
     "index.html": "/final-portfolio/index.html",
-    "main.d6ada7cf.css.map": "/final-portfolio/static/css/main.d6ada7cf.css.map",
-    "main.3c862f32.js.map": "/final-portfolio/static/js/main.3c862f32.js.map"
+    "main.f7cfb2dd.css.map": "/final-portfolio/static/css/main.f7cfb2dd.css.map",
+    "main.fccd9c56.js.map": "/final-portfolio/static/js/main.fccd9c56.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6ada7cf.css",
-    "static/js/main.3c862f32.js"
+    "static/css/main.f7cfb2dd.css",
+    "static/js/main.fccd9c56.js"
   ]
 }
