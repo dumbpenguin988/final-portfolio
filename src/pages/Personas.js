@@ -55,13 +55,15 @@ function Personas(){
           Nelson fitness center of Brown University. However different two functional trainers might seem, their essential composition 
           remain consistent: main body and attachments. 
         </p>
-        <img src={functional_trainer} class="img-fluid" alt="" />
+        <div className="img-container">
+          <img src={functional_trainer} class="img-fluid" alt="" />
+        </div>
       </div>
       <div class="container">
           <div>
           <div class="card-body">
               <h3 class="card-title mb-3 text-center"><u>Main Body</u></h3>
-                  <p class="card-text">
+                  <p>
                     The main body of a functional trainer consists of the following:
                   </p>
                   <ul>
@@ -82,13 +84,13 @@ function Personas(){
                   </ul>
                 </div>
             <div class="img-container">
-              <img src={main_body} class="img-fluid" alt="" width="500" height="600"/>
+              <img src={main_body} class="img-fluid" alt="" width="500" id="main-body"/>
             </div>
           </div>
           <div class="row align-items-center justify-content-between">
           <div class="card-body">
             <h3 class="card-title mb-3 text-center"><u>Attachments</u></h3>
-            <p class="card-text">
+            <p>
               The attachments are what the user grabs when they pull against the resistance. There are various types of attachments, each designed
               different motions and different parts of the human body.
             </p>
@@ -101,7 +103,7 @@ function Personas(){
             </ul>
           </div>
           <div class="img-container">
-              <img src={attachments} class="img-fluid" alt="" width="500" height="600"/>
+              <img src={attachments} class="img-fluid" alt="" width="500" id="attachments"/>
             </div>
           </div>
         </div>

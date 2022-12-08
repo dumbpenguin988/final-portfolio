@@ -53,7 +53,6 @@ function Home() {
               <div>
                 <h2>This is <span id="logo">PENGUIN DUMBIE</span></h2>
               </div>
-              
               <div className='descriptions'>
                 <div className='description-item'><h3>24' CS <span className='highlight'>@Brown</span></h3><img src={brown_logo} className="logos" alt=""></img></div>
                 <div className='description-item'><h3><span className='highlight2'> || </span>prev SWE <span className='highlight'>@Microsoft</span></h3><img src={microsoft_logo} className="logos" alt=""></img></div>
@@ -69,7 +68,7 @@ function Home() {
               </div>
             </div>
             <div className='view-about' onClick={scrollRight}>
-                <p className="read-more">READ MORE ABOUT ME! <FontAwesomeIcon icon={faAnglesRight}/> </p>
+                <p className="read-more"><span className='read-more-text'>READ MORE ABOUT ME! </span><FontAwesomeIcon icon={faAnglesRight}/> </p>
               </div>
           </div>
           <div className='card' id="about">
@@ -91,7 +90,6 @@ function Home() {
             </div>
           </div>
         </div>
-        
         <div className="view-projects">
           <HashLink to="#projects">
             <p><FontAwesomeIcon icon={faAnglesDown}/> VIEW MY WORKS!</p>
