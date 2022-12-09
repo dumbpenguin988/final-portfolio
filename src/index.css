@@ -1,4 +1,5 @@
 html{
+  width: 100vw;
   scroll-behavior: smooth;
 }
 
@@ -6,6 +7,8 @@ body {
   background-color: #D8DDFD;
   margin: 0px;
   padding: 0px;
+  width: 100vw;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
