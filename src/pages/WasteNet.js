@@ -27,7 +27,7 @@ function WasteNet() {
                 Automating waste classification with deep neural network.
                 </h2>
                 <h4>
-                  By: The Vastum Photographers -- Yutang Liu, Yuanhao Wang, and Yiran Wang
+                  By: The Vastum Photographers
                 </h4>
               </div>
             </div>
