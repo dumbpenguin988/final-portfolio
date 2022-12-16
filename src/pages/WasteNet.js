@@ -19,7 +19,6 @@ function WasteNet() {
           <div className="titles">
             <div>
               <div className="title-img">
-                <img></img>
               </div>
               <div className="title-text">
                 <h1>WasteNet</h1>
